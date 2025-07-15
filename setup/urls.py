@@ -16,12 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from galeria.views import post_malone
+#from galeria.views import post_malone
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('galeria.urls')),
-    path('jamil', post_malone)
 ]
 
 
