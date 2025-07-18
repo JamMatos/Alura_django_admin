@@ -139,6 +139,7 @@ table {
     border-radius: 10px;
     box-shadow: 0px 10px 10px #00000050;
     color: #FFFFFF;
+    background: linear-gradient(#041833,#04244F,#154580);
     margin-bottom: 1.5rem;
     position: relative;
     width: 450px;
@@ -153,7 +154,7 @@ table {
     background-color: #D9D9D940;
     border-radius: 8px;
     border: 2px solid transparent;
-    font-size: 1.2rem;
+    font-size: 1rem;
     left: 310px;
     margin-right: 1.5rem;
     padding: .5rem .5rem;
